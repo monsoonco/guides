@@ -4,6 +4,7 @@ section.application {
   @extend %extend;
   @include mixin;
   attribute: value;
+  background-color: $thoughtbot-red; //Use background-color specifying only color vs background
 
   @include media(value) {
     attribute: value;
