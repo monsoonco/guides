@@ -209,7 +209,6 @@ Sass
 Browsers
 --------
 
-* Don't support clients without Javascript.
 * Don't support IE6 or IE7.
 
 Objective-C
