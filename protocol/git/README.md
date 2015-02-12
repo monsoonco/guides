@@ -26,6 +26,10 @@ Create a local feature branch based off master.
 
 Prefix the branch name with your initials.
 
+Append the Jira(or other tracking system) story id to your branch name. Example:
+
+    sd-add_profile_pic_to_header-FST21
+
 Rebase frequently to incorporate upstream changes.
 
     git fetch origin
