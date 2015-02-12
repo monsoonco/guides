@@ -39,16 +39,6 @@ waiting a week for everybody to leave feedback**.
 Credits
 -------
 
-Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
+Guides is maintained by [monsoon](http://monsoonco.com/).
 
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
-
-Guides is maintained by [thoughtbot, inc](http://thoughtbot.com/community).
-
-License
--------
-
-Guides is © 2014 thoughtbot, inc. It is distributed under the [Creative Commons
-Attribution License](http://creativecommons.org/licenses/by/3.0/).
-
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+This style guide was forked from [thoughtbot, inc](http://thoughtbot.com/).

@@ -60,6 +60,10 @@ Share your branch.
 
 Submit a [GitHub pull request].
 
+During the GitHub pull request submission, please include a JIRA ticket related to the pull request.
+
+Also, it's always nice to include a gif! We recommend using [LICEcap](http://www.cockos.com/licecap/) despite it's strange name.
+
 Ask for a code review in the project's chat room.
 
 [good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
