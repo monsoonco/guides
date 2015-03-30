@@ -18,10 +18,10 @@ Maintain a Repo
 Write a Feature
 ---------------
 
-Create a local feature branch based off master.
+Create a local feature branch based off the main branch, typically develop.  If you aren't sure which branch is the main branch, ask someone.
 
-    git checkout master
-    git pull
+    git checkout develop
+    git pull origin develop
     git checkout -b <branch-name>
 
 Prefix the branch name with your initials.
@@ -29,7 +29,7 @@ Prefix the branch name with your initials.
 Rebase frequently to incorporate upstream changes.
 
     git fetch origin
-    git rebase origin/master
+    git rebase origin/develop
 
 Resolve conflicts. When feature is complete and tests pass, stage the changes.
 
@@ -52,11 +52,13 @@ Write a [good commit message]. Example format:
 If you've created more than one commit, use a rebase to squash them into
 cohesive commits with good messages:
 
-    git rebase -i origin/master
+    git rebase -i origin/develop
 
 Share your branch.
 
     git push origin <branch-name>
+
+It is not uncommon for a -f push to be required but please discuss with another member of the development team first.
 
 Submit a [GitHub pull request].
 
